@@ -1,0 +1,25 @@
+{
+    "name": "dtd/services",
+    "description": "This will manage database",
+    "type": "Library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DTD": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vithuanaz",
+            "email": "vithuanaz1995@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DTD\\DTDServiceProvider"
+            ]
+        }
+    }
+}
